@@ -36,7 +36,6 @@ nav a {
 .flexbox-container {
     display: flex;
     flex-direction: column;
-    border-bottom: 2px solid black;
 }
 
 .flexbox-container img {
@@ -45,12 +44,14 @@ nav a {
 }
 
 .item-1 {
-    padding: 3em 0 0 2em;
+    padding: 2em;
+    margin-top: 2em;
 }
 
 .item-1 img {
-    width: 150px;
-    margin-left: 4.4em;
+    width: 40%;
+    margin: 0 auto;
+    display: block;
 }
 
 .item-1 p {
@@ -77,6 +78,37 @@ nav a {
     line-height: 2;
 }
 
+#projects {
+    background-image: linear-gradient(to top, #062d68 , #83839c);
+    padding: 1em;
+    text-align: center;
+}
+
+#projects h2 {
+    padding: 2em 0;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+#projects h3 {
+    font-size: 2rem;
+    padding: 1em 0;
+}
+
+#projects p {
+    font-size: 1.6rem;
+    padding: 1.5em 0;
+}
+
+.item-4 {
+    background-image: linear-gradient(to top, #eb3b5a,  #062d68);
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1.5em 0;
+}
+
+/* Tools section */
+
 #tools {
-    background-image: linear-gradient(to top, #43418C, #8624B5);
+    background-image: linear-gradient(to top, #062d68 , #83839c);
 }
